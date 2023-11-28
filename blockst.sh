@@ -9,6 +9,17 @@ iptables -I INPUT -s fast.com -j DROP
 iptables -I INPUT -s https://testmy.net -j DROP
 iptables -I INPUT -s https://speed.cloudflare.com -j DROP
 iptables -I INPUT -s https://www.opensignal.com -j DROP
+iptables -I INPUT -s 104.68.65.13 -j DROP  
+iptables -I INPUT -s 23.198.103.141 -j DROP
+iptables -I INPUT -s 23.41.68.21 -j DROP
+iptables -I INPUT -s 23.199.140.37 -j DROP
+iptables -I INPUT -s 151.101.66.219 -j DROP
+iptables -I INPUT -s 151.101.194.219 -j DROP
+iptables -I INPUT -s 151.101.2.219 -j DROP
+iptables -I INPUT -s 151.101.130.219 -j DROP
+iptables -I INPUT -s 203.119.73.32 -j DROP
+iptables -I INPUT -s 23.11.95.132 -j DROP 
+iptables -I INPUT -s https://www.opensignal.com -j DROP
 iptables -I INPUT -s https://internethealthtest.org -j DROP
 iptables -I INPUT -s https://www.bandwidthplace.com -j DROP
 iptables -I INPUT -s https://www.speedcheck.org -j DROP
