@@ -7,6 +7,9 @@ sudo apt install iptables-persistent netfilter-persistent
 iptables -I INPUT -s www.fast.com -j DROP
 iptables -I INPUT -s fast.com -j DROP
 iptables -I INPUT -s api.fast.com -j DROP
+iptables -I INPUT -s 34.242.3.84 -j DROP
+iptables -I INPUT -s 104.102.33.108 -j DROP
+iptables -I INPUT -s https://www.opensignal.com -j DROP
 iptables -I INPUT -s https://testmy.net -j DROP
 iptables -I INPUT -s https://speed.cloudflare.com -j DROP
 iptables -I INPUT -s https://www.opensignal.com -j DROP
