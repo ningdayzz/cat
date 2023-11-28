@@ -6,6 +6,7 @@ sleep 5
 sudo apt install iptables-persistent netfilter-persistent
 iptables -I INPUT -s www.fast.com -j DROP
 iptables -I INPUT -s fast.com -j DROP
+iptables -I INPUT -s api.fast.com -j DROP
 iptables -I INPUT -s https://testmy.net -j DROP
 iptables -I INPUT -s https://speed.cloudflare.com -j DROP
 iptables -I INPUT -s https://www.opensignal.com -j DROP
